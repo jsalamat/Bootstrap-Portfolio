@@ -70,17 +70,75 @@ a {
 }
 
 #about {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#quotespage {
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .navbar-inverse {
         background-image: linear-gradient(to bottom,#3c3c3c 0,#0f27dc 100%);
   }
 
+#portfolio {
+  padding: 20px;
+}
 
-#porfolio img {
-  margin-bottom: 20px;
+#portfolio .col-md-4{
+    margin: 40px 0 40px 0;
+}
+
+#portfolio img{
+  height: 200px;
+  width: 300px;
+}
+
+#portfolio a{
+  text-decoration: none;
+}
+
+#portfolio a img:hover {
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    box-shadow: 7px 7px 4px #888888;
+    transition: opacity 2s, filter 2s, box-shadow 2s;
+}
+
+#portfolio a div:hover {
+    background-color: #1f66f4;
+    color: #ffffff;
+    box-shadow: 7px 7px 4px #888888;
+    transition: background-color 2s, color 2s, box-shadow 2s;
+}
+
+
+
+#graffiti div.jumbotron {
+    background: url(../images/graffiti.jpg) no-repeat center top;
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 300px;
+}
+
+
+.desc {
+  width: 300px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1f66f4;
+  border-color: #cccccc;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  position: relative;
+  top: -40px;
+  padding: 20px 0 20px 0;
+
 }
 
 
