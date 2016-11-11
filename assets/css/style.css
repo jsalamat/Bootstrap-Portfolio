@@ -94,24 +94,27 @@ a {
 #portfolio img{
   height: 200px;
   width: 300px;
+  box-shadow: 7px 7px 4px #888888;
 }
 
 #portfolio a{
   text-decoration: none;
 }
 
+#portfolio a div{
+  text-decoration: none;
+  box-shadow: 7px 7px 4px #888888;
+}
+
 #portfolio a img:hover {
     opacity: 0.70;
-    filter: alpha(opacity=70);
-    box-shadow: 7px 7px 4px #888888;
-    transition: opacity 2s, filter 2s, box-shadow 2s;
+    filter: alpha(opacity=40);
+    transition: opacity 2s, filter 2s;
 }
 
 #portfolio a div:hover {
-    background-color: #1f66f4;
-    color: #ffffff;
-    box-shadow: 7px 7px 4px #888888;
-    transition: background-color 2s, color 2s, box-shadow 2s;
+    background-color: #021372;
+    transition: background-color 2s, color 2s;
 }
 
 
